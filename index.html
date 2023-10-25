@@ -56,6 +56,8 @@
 
     <section class="banner">
         <div class="container bg-img">
+             
+
             <div class="row">
                 <div class="col-lg-6">
                     <div class="banner-content">
@@ -65,14 +67,19 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="banner-img">
-                        <img src="./asset/images/girl.png" alt="">
+                        <img class="main-img" src="./asset/images/girl.png" alt="">
 
                         <div class="left-box">
-                            <h3>Learn from best instructors around the globe</h3>
+                            <h3>Learn from best <span>instructors</span> around the globe</h3>
                             <div class="top-img"><img src="./asset/images/small-img.png" alt=""><img
                                     src="./asset/images/small-img.png" alt=""><img src="./asset/images/small-img.png"
                                     alt=""><img src="./asset/images/small-img.png" alt=""><img
                                     src="./asset/images/small-img.png" alt=""></div>
+                        </div>
+                        <div class="right-box">
+                                   <img src="./asset/images/Vector.svg" alt="">
+                                   <p>15K</p>
+                                   <p>Amazing students around the globe</p>
                         </div>
 
                     </div>
@@ -171,6 +178,10 @@
 
     <section class="popular">
         <div class="container">
+<div class="catogory ">
+                <h3>Most Popular courses</h3> <a href="#">see all</a>
+            </div>
+
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card">
@@ -287,6 +298,106 @@
         </div>
     </section>
 
+    <section class="new-skill">
+              <div class="container"> 
+                <div class="catogory ">
+                    <h3>Learn a new skill in two hours</h3> 
+                </div>
+
+
+                <div class="owl-carousel owl-theme" id="skill">
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img"><img src="./asset/images/learn-marke.png" alt=""></div>
+                            <div class="rate">
+                                <h4>Learn Marketing From Top instructtors.</h4>
+                                <span class="d-flex"><img src="./asset/images/ant-design_star-outlined.svg" alt="">
+                                    4.5</span>
+        
+                            </div>
+                            <div class="rest">
+                                <ul>
+                                    <li>6Weeeks</li>
+                                    <li><img src="./asset/images/1.5k.svg" alt=""> 1.5k student</li>
+                                </ul>
+                                <span>30.5$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img"><img src="./asset/images/learn-marke.png" alt=""></div>
+                            <div class="rate">
+                                <h4>Learn Marketing From Top instructtors.</h4>
+                                <span class="d-flex"><img src="./asset/images/ant-design_star-outlined.svg" alt="">
+                                    4.5</span>
+        
+                            </div>
+                            <div class="rest">
+                                <ul>
+                                    <li>6Weeeks</li>
+                                    <li><img src="./asset/images/1.5k.svg" alt=""> 1.5k student</li>
+                                </ul>
+                                <span>30.5$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img"><img src="./asset/images/learn-marke.png" alt=""></div>
+                            <div class="rate">
+                                <h4>Learn Marketing From Top instructtors.</h4>
+                                <span class="d-flex"><img src="./asset/images/ant-design_star-outlined.svg" alt="">
+                                    4.5</span>
+        
+                            </div>
+                            <div class="rest">
+                                <ul>
+                                    <li>6Weeeks</li>
+                                    <li><img src="./asset/images/1.5k.svg" alt=""> 1.5k student</li>
+                                </ul>
+                                <span>30.5$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img"><img src="./asset/images/learn-marke.png" alt=""></div>
+                            <div class="rate">
+                                <h4>Learn Marketing From Top instructtors.</h4>
+                                <span class="d-flex"><img src="./asset/images/ant-design_star-outlined.svg" alt="">
+                                    4.5</span>
+        
+                            </div>
+                            <div class="rest">
+                                <ul>
+                                    <li>6Weeeks</li>
+                                    <li><img src="./asset/images/1.5k.svg" alt=""> 1.5k student</li>
+                                </ul>
+                                <span>30.5$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+               
+
+              </div>
+    </section>
+
+    <section class="life">
+        <div class="container">
+            <div class="catogory">
+                <h3>We Bring The Good Education To Life</h3> 
+            </div>
+            <div class="row">
+                <div class="col-lg-5"></div>
+
+            </div>
+
+        </div>
+    </section>
 
 
     <script src="/js/jquery.min.js"></script>
@@ -308,6 +419,22 @@
                 },
                 1000: {
                     items: 4
+                }
+            }
+        })
+        $('#skill').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
                 }
             }
         })

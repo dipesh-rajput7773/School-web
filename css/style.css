@@ -12,13 +12,17 @@
 
 
 
-ul,li,p{
+ul,
+li,
+p {
     margin: 0;
     padding: 0;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
+
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
     background-color: #FFFFFF !important;
     height: 100px !important;
@@ -75,14 +79,18 @@ button.btn.btn-success {
     color: #09B451;
 }
 
-.banner-img img {
-   
-    height: 500px;
+.banner-img .main-img {
+    /* height: 500px; */
+    width: 431px;
+    height: 508px;
     margin-top: 49px;
+    margin-right: 40px;
 }
 
-.banner-img{
+.banner-img {
     position: relative;
+    display: flex;
+    justify-content: end;
 }
 
 
@@ -160,29 +168,41 @@ section.services {
     top: 40%;
     position: absolute;
     font-size: 46px;
-    top: 50%;  
+    top: 50%;
     left: 30px;
     padding: 10px;
-  
+
 }
 
-.card{
+.card {
     border-radius: 10px;
     width: 392px;
-    height:444px;
+    height: 405px;
+    border-radius: 10px;
+background: #FFF;
+border: none;
+margin: 19px 0;
+box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
 }
 
-.card-img img{
+.card-img img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 .rate {
     display: flex;
+    /* align-items: stretch; */
+    padding: 15px;
 }
+
 .rest {
     justify-content: space-between;
     display: flex;
+    padding: 15px;
+    align-items: center;
 }
+
 .rest ul {
     display: flex;
 }
@@ -194,6 +214,21 @@ section.services {
 
 .rate h4 {
 
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.rate span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .course-img {
@@ -201,6 +236,7 @@ section.services {
     font-weight: 600;
     color: #FFFFFF;
 }
+
 .head-course {
     font-size: 32px;
     position: absolute;
@@ -211,8 +247,8 @@ section.services {
 
 
 
-.left-box h3{
-  
+.left-box h3 {
+
     text-align: center;
     font-family: Poppins;
     font-size: 20px;
@@ -223,17 +259,81 @@ section.services {
 
 .top-img img {
     height: 50px;
+    width: 50px;
     margin-left: -21px;
+    margin-top: 0px;
 }
 
 .left-box {
     max-width: 261px;
     position: absolute;
     bottom: 15%;
-    left: -142px;
+    left: 65px;
     height: 187px;
+    padding: 17.677px 23.649px 12.095px 24.208px;
     text-align: center;
-    border-radius: 14px 14px 30px 14px;
-    background: #FFF;
-    box-shadow: 0px 0px 69.23334px 0px rgba(112, 112, 112, 0.25);
+    border-radius: 14px 14px 30px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(112, 112, 112, 0.25) 0px 0px 69.2333px 0px;
 }
+
+.right-box {
+    width: 129px;
+    text-align: center;
+    height: 146px;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    flex-shrink: 0;
+    border-radius: 6.887px 6.887px 17.217px 6.887px;
+    background: #FFF;
+    box-shadow: 0px 0px 42.69811px 0px rgba(112, 112, 112, 0.25);
+}
+
+.right-box img {
+    border-radius: 30px;
+    background: #E1FFEE;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.rest ul li {
+
+    /* color: var(--Gray-1, #333); */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.rest ul li img {
+
+    padding: 0 16px;
+
+}
+
+.rest ul li img {
+
+    padding: 0 16px;
+   
+   
+
+}
+
+/* .owl-carousel .owl-item .rest ul li img {
+    display: inline !important;
+    max-width:100%;
+} */
+
+.rest span {
+    color: #09B451;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
