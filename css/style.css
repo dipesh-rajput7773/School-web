@@ -112,18 +112,18 @@ button.btn.btn-success {
 }
 
 .banner-img {
-    
-    
+
+
     position: relative;
     display: flex;
     justify-content: end;
     margin: 0px 39px;
-     
+
 }
 
 .banner-img img:hover {
     transform: scale(1.1);
-    
+
 }
 
 
@@ -176,6 +176,7 @@ section.services {
     align-items: center;
     margin-bottom: 30px;
 }
+
 .popular-sec {
     margin-top: 60px;
 }
@@ -213,6 +214,7 @@ section.services {
 .course-img img {
     max-width: 100%;
 }
+
 .course-img {
     position: relative;
     font-weight: 600;
@@ -237,8 +239,8 @@ section.services {
     width: 392px;
     height: 405px;
     margin: 19px 0;
-background: #FFF;
-box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
 }
 
 .card-img img {
@@ -325,16 +327,17 @@ box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
 }
 
 
-.head-course:hover{
+.head-course:hover {
     position: absolute;
     bottom: 13px;
     left: 24px;
     transition: 0.3s;
 }
-.head-course h4{
+
+.head-course h4 {
     font-size: 32px;
-  
-   
+
+
     left: 24px;
     font-family: 'Poppins', 'sans-serif';
 }
@@ -509,7 +512,7 @@ section.skills {
 
 
 
-    
+
 }
 
 .stud-box {
@@ -594,7 +597,7 @@ section.skills {
     padding: 59px 48px 48px 48px;
     background: #FFF;
     box-shadow: 0px 0px 20px 0px rgba(226, 226, 226, 0.25);
-  
+
 }
 
 .rev-bottom {
@@ -692,19 +695,24 @@ section.skills {
 
 }
 
-section.instructors {
-    margin-top: 98px;
+.inqiry-sec {
+    margin-top: 90px;
+    background: url('/asset/images/doopchat-footer-background.jpg')center center no-repeat;
+    height: 531px;
+    width: 100%;
+    /* background-size: cover; */
 }
 
 .inqiry-sec {
     background: url('/asset/images/doopchat-footer-background.jpg')center center no-repeat;
 
+    
    
-    height:531px;
-   width:100%;
-   
+    height: 531px;
+    width: 100%;
+
     /* background-size: cover; */
-   
+
 }
 
 
@@ -714,7 +722,135 @@ section.instructors {
     margin: 16px 0 0 0;
 }
 
-.inqiry-sec h1{
+.inqiry-sec h1 {
     color: #fff;
-    
+
+}
+
+.inquiry-img img {
+    max-width: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+.inquiry-img {
+    position: relative;
+}
+
+.in-main-content {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    max-width:568px;
+    margin: 50px 0;
+}
+.in-main-content p{
+ 
+margin-top:24px;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.inquiry-btn .btn{
+color: #09B451;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+padding:20px 42px;
+border-radius: 5px;
+border: 1px solid #09B451;
+background: #E7FAEF;
+
+}
+.inquiry-btn {
+    margin-top: 80px;
+}
+
+.inquiry-btn .get-start{
+  color: #fff;
+/* font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+padding:20px 42px;  */
+margin-right: 32px;
+border-radius: 5px;
+background-color: #09B451;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css  */
+
+
+.footer {
+    background: #000;
+    padding: 120px 0 0 0;
+}
+
+h6.footer-heading {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-para {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    margin: 30px 0px 32px 0;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+
+.footer-icon-ink {
+    display: flex;
+    column-gap: 24px;
+}
+
+.footer-links li a {
+color: #FFF;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 178.571% */
+text-transform: capitalize;
+}
+.footer-links li {
+    margin-bottom: 14px;
+}
+
+
+.newslatter {
+    margin-top: 100px;
 }
