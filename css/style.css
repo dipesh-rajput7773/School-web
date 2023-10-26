@@ -697,7 +697,7 @@ section.instructors {
 }
 
 .inqiry-sec {
-    background: url('/asset/images/image\ 10.png')center center no-repeat;
+    background: url('/asset/images/doopchat-footer-background.jpg')center center no-repeat;
 
    
     height:531px;
@@ -712,4 +712,9 @@ section.instructors {
 
 .instructors-details {
     margin: 16px 0 0 0;
+}
+
+.inqiry-sec h1{
+    color: #fff;
+    
 }
