@@ -1,0 +1,307 @@
+@media screen and (max-width: 1200px) {
+
+    .left-box {
+        max-width: 230px;
+        position: absolute;
+        bottom: 15%;
+        left: -100px;
+
+        /* height: 187px; */
+
+    }
+
+    .banner-content h1 span {
+
+        font-size: 48px;
+
+    }
+
+    .banner-content h1 {
+
+
+        font-size: 60px;
+        font-size: 48px;
+        margin: 100px 0;
+
+    }
+
+
+    .services-boxs {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .serv-box {
+        margin: 10px 10px;
+    }
+
+    .banner-img img {
+        margin-top: 90px;
+
+    }
+
+    .top-img img {
+
+        margin-top: 0px;
+    }
+
+    .right-img-bx img {
+        margin-top: 0;
+    }
+
+    .left-box h3 {
+
+        font-size: 15px;
+
+    }
+
+    .left-box h3 span {
+
+        font-size: 15px;
+
+    }
+
+    .left-box {
+        padding: 15px 15px;
+    }
+
+    .rate h4 {
+        font-size: 18px;
+    }
+    .rate span {
+        
+        font-size: 12px;
+     
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .top-img {
+        margin-right: -13px;
+    }
+
+    .left-box h3 span {
+        font-size: 12px;
+    }
+
+    .left-box h3 {
+        font-size: 12px;
+    }
+
+    .left-box {
+        max-width: 180px;
+    }
+
+    .right-box {
+        padding: 10px;
+        height: 130px;
+        max-width: 110px;
+
+
+
+
+    }
+
+    .right-box span {
+
+        font-size: 18px;
+
+    }
+
+    .right-box p {
+
+        font-size: 10px;
+
+    }
+
+    .banner-content h1 {
+        font-size: 38px;
+        margin: 80px 0 0 0;
+    }
+
+    .banner-content h1 span {
+        font-size: 38px;
+    }
+
+    .banner-btn {
+
+        font-size: 16px;
+
+        margin: 15px 0;
+    }
+
+    .catogory h3 {
+        font-size: 24px;
+        max-width: 340px;
+    }
+
+    .catogory a {
+        font-size: 16px;
+
+    }
+
+    .popular h3 {
+        font-size: 24px;
+    }
+
+    .shortby {
+        font-size: 16px;   
+    }
+    .shortby img {
+        max-width: 20px;
+    }
+
+    .studcatogory h3 {
+        font-size: 24px;   
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .banner-content h1 {
+        font-size: 50px;
+        margin: 80px 0 0 0;
+    }
+
+    .banner-content h1 span {
+        font-size: 50px;
+    }
+
+    .bg-img {
+
+        height: 655px;
+    }
+
+    section.services {
+        margin: 450px 0 0 0;
+    }
+
+    .left-box {
+        left: -40px;
+    }
+
+    .top-img img {
+        height: 40px;
+
+    }
+
+    .banner-img {
+        margin: 0px 15px 0 95px;
+        max-width: 350px;
+        /* text-align: left !important; */
+    }
+
+    .serv-box {
+        margin: 10px 0px;
+        padding: 10px 16px;
+    }
+
+    
+}
+
+@media screen and (max-width: 425px) {
+    .banner-content h1 {
+        font-size: 32px;
+        margin: 80px 0 18px 0;
+    }
+
+    .banner-content h1 span {
+        font-size: 32px;
+    }
+
+
+
+    .left-box h3 {
+        font-size: 10px;
+    }
+
+    .left-box h3 span {
+        font-size: 10px;
+    }
+
+    .banner-img {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .banner-img img {
+        margin-top: 60px;
+        max-width: 250px;
+    }
+
+    .top-img img {
+        margin-top: 0px;
+    }
+
+    .right-img-bx img {
+        margin-top: 0;
+    }
+
+    .left-box {
+        left: 30px;
+        max-width: 150px;
+    }
+
+    section.services {
+        margin: 100px 0 0 0;
+    }
+
+    .serv-box {
+        font-size: 14px;
+        padding: 5px 10px;
+
+    }
+
+    .icon-image-box img {
+        max-width: 21px;
+    }
+
+    .icon-image-box {
+        margin-right: 7px;
+        padding: 8px;
+    }
+
+    .catogory h3 {
+        font-size: 16px;
+        max-width: 225px;
+        font-weight: 500;
+
+    }
+
+    .catogory a {
+        font-size: 14px;
+        font-weight: 400;
+
+    }
+
+    .popular h3 {
+        font-size: 16px;
+        font-weight: 600;
+      
+    }
+
+    .studcatogory h3 {
+        font-size: 16px;   
+        font-weight: 600;
+    }
+
+    .shortby {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .shortby img{
+        max-width: 16px;
+    }
+
+}
+
+  

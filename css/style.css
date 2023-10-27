@@ -105,7 +105,7 @@ button.btn.btn-success {
 
 .banner-img img {
 
-    height: 500px;
+   
     margin-top: 49px;
     overflow: hidden;
     transition: 0.3s;
@@ -158,9 +158,9 @@ section.services {
 }
 
 
-.serv-box img {
-    margin-right: 10px;
-
+.service-box-img {
+    display: flex;
+    align-items: center;
 }
 
 .catogory {
@@ -236,18 +236,17 @@ section.services {
 
 .cards {
     border-radius: 10px;
-    width: 392px;
-    height: 405px;
+ 
     margin: 19px 0;
     background: #FFF;
     box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
 }
 
-.card-img img {
+.cards-img img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    width: 100%;
 }
-
 
 .rate {
     display: flex;
@@ -380,7 +379,7 @@ section.services {
     bottom: 15%;
     left: 0;
     padding: 20px 20px;
-    height: 187px;
+    
     text-align: center;
     border-radius: 14px 14px 30px 14px;
     background: #FFF;
@@ -402,6 +401,7 @@ section.skills {
 
 .stud-content h3 {
     font-family: Poppins;
+    color: #333;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -416,8 +416,7 @@ section.skills {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
-
+    color: #333;
 }
 
 .right-box img {
@@ -497,7 +496,7 @@ section.skills {
     padding: 0 16px;
     display: inline !important;
     height: 16px;
-    width: 16px !important;
+    /* width: 16px !important; */
 }
 
 .stud-content ul li img {
@@ -547,11 +546,13 @@ section.skills {
 
 .review-sec {
     margin-top: 90px;
+    margin-bottom: 60px;
 }
 
 .review-sec h3 {
     text-align: center;
     font-family: Poppins;
+    color: #242243;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -696,18 +697,17 @@ section.skills {
 }
 
 .inqiry-sec {
-    margin-top: 90px;
-    background: url('/asset/images/doopchat-footer-background.jpg')center center no-repeat;
+    background: url("/asset/images/doopchat-footer-background.jpg") center center no-repeat;
     height: 531px;
-    width: 100%;
-    /* background-size: cover; */
+     width: 100%; 
+    margin-top: 135px;
 }
 
 .inqiry-sec {
     background: url('/asset/images/doopchat-footer-background.jpg')center center no-repeat;
 
-    
-   
+
+
     height: 531px;
     width: 100%;
 
@@ -745,56 +745,64 @@ section.skills {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-    max-width:568px;
+    max-width: 568px;
     margin: 50px 0;
 }
-.in-main-content p{
- 
-margin-top:24px;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: capitalize;
+
+.in-main-content p {
+
+    margin-top: 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
-.inquiry-btn .btn{
-color: #09B451;
-font-family: Source Sans Pro;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 20px;
-padding:20px 42px;
-border-radius: 5px;
-border: 1px solid #09B451;
-background: #E7FAEF;
+.inquiry-btn .btn {
+    color: #09B451;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 20px 42px;
+    border-radius: 5px;
+    border: 1px solid #09B451;
+    background: #E7FAEF;
 
 }
+
 .inquiry-btn {
     margin-top: 80px;
 }
 
-.inquiry-btn .get-start{
-  color: #fff;
-/* font-family: Source Sans Pro;
+.inquiry-btn .get-start {
+    color: #fff;
+    /* font-family: Source Sans Pro;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: 20px;
 padding:20px 42px;  */
-margin-right: 32px;
-border-radius: 5px;
-background-color: #09B451;
+    margin-right: 32px;
+    border-radius: 5px;
+    background-color: #09B451;
 }
 
 
 
 
-
-
-
-
+.icon-image-box {
+  
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
+    background: #09B451;
+}
 
 
 
@@ -819,6 +827,7 @@ h6.footer-heading {
     font-weight: 600;
     line-height: normal;
 }
+
 .footer-para {
     color: rgb(255, 255, 255);
     font-family: Poppins;
@@ -838,14 +847,16 @@ h6.footer-heading {
 }
 
 .footer-links li a {
-color: #FFF;
-font-family: Open Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px; /* 178.571% */
-text-transform: capitalize;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 178.571% */
+    text-transform: capitalize;
 }
+
 .footer-links li {
     margin-bottom: 14px;
 }
@@ -853,4 +864,66 @@ text-transform: capitalize;
 
 .newslatter {
     margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.newslatter h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+
+    font-weight: 600;
+    line-height: normal;
+}
+
+.newslatter-input form input {
+    border: none;
+    padding: 10px 13rem 10px 20px;
+    border-radius: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+
+}
+
+.newslatter-input form input:focus {
+    outline: none;
+}
+
+.newslatter-input form button {
+    border: none;
+    border-radius: 0;
+    margin-left: -4px;
+    padding: 10px 16px;
+    background: rgba(10, 199, 90, 0.80);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.newslatter-input form button:focus {
+    outline: none;
+}
+
+
+.newslatter-input form input::placeholder {
+    color: #3BD27B;
+    opacity: 1;
+
+}
+
+
+ .studcatogory h3 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', 'sans-serif';
+    color: #333333;
 }
