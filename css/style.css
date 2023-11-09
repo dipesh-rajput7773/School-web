@@ -57,7 +57,7 @@ button.btn.btn-success {
     background-color: #09B451 !important;
     color: #ffffff !important;
     border: none;
-    padding: 10px 24px;
+    padding: 12px 24px;
     font-size: 16px !important;
     font-weight: 600;
     line-height: 20px;
@@ -105,7 +105,7 @@ button.btn.btn-success {
 
 .banner-img img {
 
-   
+
     margin-top: 49px;
     overflow: hidden;
     transition: 0.3s;
@@ -224,19 +224,10 @@ section.services {
 
 
 
-.owl-nav {
-    top: 40%;
-    position: absolute;
-    font-size: 46px;
-    top: 50%;
-    left: 30px;
-    padding: 10px;
-
-}
 
 .cards {
     border-radius: 10px;
- 
+
     margin: 19px 0;
     background: #FFF;
     box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
@@ -285,12 +276,7 @@ section.services {
 
 }
 
-.rest ul li img {
 
-
-    padding: 0 16px;
-
-}
 
 .rate span {
     display: flex;
@@ -379,7 +365,7 @@ section.services {
     bottom: 15%;
     left: 0;
     padding: 20px 20px;
-    
+
     text-align: center;
     border-radius: 14px 14px 30px 14px;
     background: #FFF;
@@ -396,7 +382,8 @@ section.skills {
 
 .stud-img img {
     border-radius: 28.93px 28.93px 72.325px 28.93px;
-    background: #CECECE;
+    max-width: 100%;
+
 }
 
 .stud-content h3 {
@@ -405,7 +392,7 @@ section.skills {
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    width: 533px;
+    max-width: 533px;
     line-height: normal;
 }
 
@@ -493,7 +480,7 @@ section.skills {
 
 
 .rest ul li img {
-    padding: 0 16px;
+    padding: 0 8px;
     display: inline !important;
     height: 16px;
     /* width: 16px !important; */
@@ -516,18 +503,17 @@ section.skills {
 
 .stud-box {
     position: absolute;
-    right: 0;
+    right: 80px;
     bottom: 70px;
     max-width: 129px;
     border-radius: 6.887px 6.887px 17.217px 6.887px;
     display: flex;
-    padding: 12px 9px 20px 8px;
+    padding: 12px 9px 26px 8px;
     background: #FFF;
     flex-direction: column;
     align-items: center;
     box-shadow: 0px 0px 76px 0px rgba(112, 112, 112, 0.25);
 }
-
 
 .stud-box img {
     max-width: 100%;
@@ -623,19 +609,9 @@ section.skills {
     line-height: normal;
 }
 
-/* .owl-item{
-    width: 448px !important;
-} */
 
 
-#review .owl-nav {
-    top: 40%;
-    position: absolute;
-    font-size: 46px;
-    top: 60%;
-    left: -74%;
-    padding: 10px;
-}
+
 
 .instructors-boxes {
     display: flex;
@@ -699,7 +675,7 @@ section.skills {
 .inqiry-sec {
     background: url("/asset/images/doopchat-footer-background.jpg") center center no-repeat;
     height: 531px;
-     width: 100%; 
+    width: 100%;
     margin-top: 135px;
 }
 
@@ -709,7 +685,7 @@ section.skills {
 
 
     height: 531px;
-    width: 100%;
+    max-width: 100%;
 
     /* background-size: cover; */
 
@@ -773,6 +749,22 @@ section.skills {
 
 }
 
+
+.job {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.job span {
+    font-size: 18px;
+    color: #09B451;
+    font-weight: 700;
+}
+
 .inquiry-btn {
     margin-top: 80px;
 }
@@ -794,7 +786,7 @@ padding:20px 42px;  */
 
 
 .icon-image-box {
-  
+
     display: inline-flex;
     border-radius: 50%;
     justify-content: center;
@@ -890,6 +882,9 @@ h6.footer-heading {
 
 }
 
+
+
+
 .newslatter-input form input:focus {
     outline: none;
 }
@@ -921,9 +916,181 @@ h6.footer-heading {
 }
 
 
- .studcatogory h3 {
+.studcatogory h3 {
     font-size: 32px;
     font-weight: 600;
     font-family: 'Poppins', 'sans-serif';
     color: #333333;
+}
+
+
+
+
+/* owl carousel  */
+
+
+
+
+
+
+
+
+.owlCarousel img {
+    width: auto;
+}
+
+/* .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    background: var(--secondary-color);
+    border: 1px solid #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff;
+} */
+
+
+
+
+
+
+#course .owl-nav button {
+    background-color: #fff !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100% !important;
+    margin: 0px 10px !important;
+}
+
+#course .owl-nav button span {
+    opacity: 0;
+}
+
+
+
+#course .owl-nav button.owl-prev {
+    background-image: url(/asset/images/right-vector.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+
+}
+
+#course .owl-nav button.owl-next {
+    background-image: url(/asset/images/left-veco.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+
+
+
+
+
+/* skills slider  */
+
+
+
+#skills .owl-nav button {
+    background-color: #fff !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100% !important;
+    margin: 0px 10px !important;
+}
+
+#skills .owl-nav button span {
+    opacity: 0;
+}
+
+
+
+#skills .owl-nav button.owl-prev {
+    background-image: url(/asset/images/right-vector.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin-left: 20px;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transform: translate(0%, -50%);
+
+}
+
+
+
+#skills .owl-nav button.owl-next {
+    background-image: url(/asset/images/left-veco.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: 40%;
+    left: auto;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+
+
+
+
+
+
+
+
+/* rewview slider  */
+
+
+
+#review .owl-nav button {
+    background-color: #fff !important;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #09B451;
+    border-radius: 100% !important;
+    margin: 0px 10px !important;
+}
+
+
+#review .owl-nav button span {
+    opacity: 0;
+}
+
+#review .owl-nav button.owl-prev {
+    background-image: url(/asset/images/right-vector.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    margin-left: 20px;
+    position: absolute;
+
+    left: -75%;
+    transform: translate(0%, -50%);
+}
+
+
+#review .owl-nav button.owl-next {
+    background-image: url(/asset/images/left-veco.svg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    /* margin-left: -260px; */
+    left: -400px;
+    transform: translate(0%, -50%);
+}
+
+
+section.review-sec {
+    overflow: hidden;
 }

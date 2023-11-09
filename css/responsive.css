@@ -69,11 +69,62 @@
     .rate h4 {
         font-size: 18px;
     }
+
     .rate span {
-        
+
         font-size: 12px;
-     
+
     }
+
+    .stud-content h3 {
+       
+        font-size: 40px;   
+
+    }
+
+    .stud-content ul li {
+        margin-top: 25px;
+        font-size: 18px;
+        
+    }
+
+    .stud-box {
+      
+        right: 10px;
+   
+    }
+
+    .instructors-boxes {
+        display: flex;
+        justify-content: center;
+        column-gap: 26px;
+        flex-wrap: wrap;
+    }
+
+    .in-main-content {
+       
+        font-size: 32px;
+      
+    }
+
+    .in-main-content p {
+        margin-top: 24px;
+        font-size: 18px;
+       
+    }
+
+
+
+    #review .owl-nav button.owl-next {
+        background-image: url(/asset/images/left-veco.svg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        position: absolute;
+        /* margin-left: -260px; */
+        left: -200px;
+        transform: translate(0%, -50%);
+    }
+
 }
 
 
@@ -148,21 +199,194 @@
     }
 
     .shortby {
-        font-size: 16px;   
+        font-size: 16px;
     }
+
     .shortby img {
         max-width: 20px;
     }
 
     .studcatogory h3 {
-        font-size: 24px;   
+        font-size: 24px;
     }
+
+    .stud-img img {
+        
+        max-width: 100%;
+    }
+
+    .rest ul li img {
+      
+        height: 16px;
+      
+    }
+    .rest ul li {
+      
+        font-size: 10px;
+       
+    }
+
+    .rest span {
+      
+        font-size: 13px;
+    
+    }
+
+    .rate h4 {
+        font-size: 15px;
+    }
+
+    .rate span {
+        font-size: 12px;
+    }
+
+    .rest ul li img {
+        height: 14px;
+        padding: 0px 7px;
+    }
+
+    .head-course h4 {
+        font-size: 22px;
+        left: 24px;
+        font-family: 'Poppins', 'sans-serif';
+    }
+
+    .head-course p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .courses {
+        margin: 80px 0px;
+    }
+
+    .stud-content ul li {
+        margin-top: 18px;
+        font-size: 16px;
+    }
+
+    .stud-box {
+        right: -14px;
+    }
+    .img-inst img {
+        max-width: 70%;
+    }
+    .stud-content h3 {
+        font-size: 26px;
+    }
+    .stud-content ul li img {
+        margin-right: 14px;
+        padding: 13px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        /* border-radius: 30px; */
+        background: #DFF;
+        /* padding-right: 24px; */
+    }
+
+    .instructors-box {
+       
+       
+        height: auto;
+        max-width: 300px;
+    
+    }
+
+    .instructors-cont {
+        padding: 0px 20px;
+        margin: 30px 0;
+    }
+/* 
+    .inquiry-btn {
+  
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inquiry-btn .get-start {
+        color: #fff;
+        margin-right: 32px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #09B451;
+    }
+     */
+
+     .in-main-content {
+        font-size: 24px;
+
+        margin: 30px 0;
+    }
+    .in-main-content p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .inquiry-btn .get-start {
+        
+        margin-right: 5px;
+
+    }
+
+
+    .reviwew-content img {
+        /* max-width: 54%; */
+        width: 170.5px;
+    }
+
+    .reviwew-content {
+        
+        font-size: 38px;
+      
+    }
+
+    .review-item {
+        border-radius: 10px;
+        padding: 25px 30px 25px 30px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px 0px rgba(226, 226, 226, 0.25);
+    }
+
+
+    #review .owl-nav {
+        position: absolute;
+        top: -76px;
+        right: 25%;
+    }
+
+    #review .owl-nav button.owl-prev {
+        background-image: url(/asset/images/right-vector.svg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        margin-left: 20px;
+        /* position: absolute; */
+        left: 0;
+        transform: translate(0%, -50%);
+    }
+  
+    #review .owl-nav button.owl-next {
+        background-image: url(/asset/images/left-veco.svg) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        position: absolute;
+        /* margin-left: -260px; */
+        left: 90px;
+        transform: translate(0%, -50%);
+    }
+
 }
 
 
 
 @media screen and (max-width: 768px) {
-
+   
+    .cards-img img {
+    
+        /* width: 100%; */
+        max-width: 100% !important;
+    }
 
 
     .banner-content h1 {
@@ -203,7 +427,39 @@
         padding: 10px 16px;
     }
 
-    
+    .instructors-boxes {
+      
+        column-gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .reviwew-content img {
+        width: 110.5px;
+    }
+
+    .rev-bottom p {
+        font-size: 12px;
+    }
+    .rev-img img {
+        max-width: 50px !important;
+    }
+
+    .reviwew-content {
+        color: #000;
+        font-family: Open Sans;
+        font-size: 30px;
+        font-style: normal;
+        max-width: 233px;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    #review .owl-nav {
+        position: absolute;
+        top: -40px;
+        right: 40%;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -286,11 +542,11 @@
     .popular h3 {
         font-size: 16px;
         font-weight: 600;
-      
+
     }
 
     .studcatogory h3 {
-        font-size: 16px;   
+        font-size: 16px;
         font-weight: 600;
     }
 
@@ -298,10 +554,210 @@
         font-size: 12px;
         font-weight: 400;
     }
-    .shortby img{
+
+    .shortby img {
         max-width: 16px;
     }
 
-}
+    .rate h4 {
+        font-size: 14px;
+        font-weight: 500;
+    }
 
-  
+    .rate span {
+        font-size: 10px;
+        font-weight: 4 00;
+    }
+
+    .rate {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .rest ul li {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .rest span {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .stud-img img {
+        max-width: 85%;
+    }
+
+    .stud-content h3 {
+
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .stud-content ul li {
+        font-size: 14px;
+    }
+
+    .reviwew-content {
+        font-size: 18px;
+        margin-bottom: 2rem;
+        line-height: 32px;
+    }
+
+    .reviwew-content img {
+        max-width: 50%;
+        /* width: 210.5px; */
+    }
+
+ 
+
+    
+    .rev-bottom p {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    .rev-img img {
+        width: 30px;
+    }
+
+    #review .owl-item img {
+        display: block;
+        width: 75%;
+    }
+
+    .img-inst img {
+        max-width: 60%;
+    }
+
+    .instructors-details h4 {
+
+        font-size: 12px;
+
+        font-weight: 600;
+    }
+
+    .instructors-details p {
+
+        font-size: 7.457px;
+
+        font-weight: 500;
+    }
+
+    .instructors-cont p {
+    
+font-size: 12px;
+font-weight: 400;
+line-height: 18px; /* 150% */
+    }
+
+    .instructors-boxes {
+      flex-wrap: wrap;
+    }
+
+
+    .in-main-content {
+        font-size: 24px;    
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .in-main-content p {
+        font-size: 16px;
+      
+    }
+    .inquiry-img img {
+        display: none;
+    }
+
+    .inquiry-btn {
+       
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .inquiry-btn .get-start {
+     
+        margin-right: 0px;
+     
+    }
+
+
+    .footer-para {
+        
+        display: none;
+        
+    }
+
+    h6.footer-heading {
+        text-align: left;
+    }
+
+    .inqiry-sec {
+        background: url('/asset/images/doopchat-footer-background.jpg')center center no-repeat;
+        height: 531px;
+         max-width: 100% !important;
+        /* background-size: cover; */
+    }
+    .rev-bottom {
+        margin-top: 5px;
+    }
+
+    .review-item {
+        border-radius: 10px;
+        padding: 5px 5px 5px 5px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px 0px rgba(226, 226, 226, 0.25);
+    }
+       .rev-cont h4 {
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .rev-cont p {
+      
+        font-size: 10px;
+      
+        font-weight: 400;
+      
+    }
+    .rev-top {
+        display: flex;
+        column-gap: 5px;
+        align-items: center;
+    }
+
+    #review .owl-nav {
+        position: absolute;
+        top: -60px;
+        right: 48%;
+    }
+    #review .owl-nav button {
+        background-color: #fff !important;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #09B451;
+        border-radius: 100% !important;
+        margin: 0px 10px !important;
+    }
+
+
+    .stud-box {
+        right: 10px;
+    }
+
+    .cards {
+        border-radius: 10px;
+        margin: 19px 0;
+        background: #FFF;
+        padding: 20px;
+        box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
+    }
+}
